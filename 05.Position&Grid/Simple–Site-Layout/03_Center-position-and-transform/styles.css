@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(238, 238, 238);
+    font-family: Georgia, serif;
+}
+
+div h3 {
+    font-size: 1em/1.2;
+}
+
+.card {
+    background-color: (255, 255, 255);
+}
+
+
+div img {
+    position: absolute;
+}
