@@ -1,0 +1,33 @@
+body {
+    margin: 40px;
+}
+
+body header {
+    border-bottom:2px solid rgb(0,0,0);
+    display: flex;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+li {
+    padding:10px;
+}
+
+header nav ul li a {
+    color: rgb(0,153,0);
+    text-decoration: none;
+}
+
+header span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+nav {
+    margin-left: 70%;
+    margin-bottom: 30px;
+}
