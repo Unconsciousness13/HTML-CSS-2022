@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+.cards-layout.masonry {
+    border: 2px black;
+    display: flex;
+    margin: auto;
+}
+
+.cards-layout.masonry {
+    border: 2px black;
+    display: flex;
+}
+
+.cards {
+    width: 30%;
+}
+
+.cards-layout.flex {
+    border: 2px black;
+    display: flex;
+}

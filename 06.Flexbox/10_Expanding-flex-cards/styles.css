@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    background-color: rgb(238, 238, 238);
+}
+
+section.container {
+    display: flex;
+    max-width: 60%;
+}
+
+
+
+.first-image {
+    max-width: 15%;
+}
+
+img {
+    margin:15px;
+    border-radius: 10px;
+}
+
+.second-image {
+    flex-basis: 50%;
+}
