@@ -1,0 +1,69 @@
+body {
+    background-color: rgb(238,238,238);
+    margin: 30px;
+    padding: 25px;
+}
+
+header {
+    border-bottom: 2px solid black;
+    text-transform: capitalize;
+    flex-basis: 100%;
+}
+
+div.page {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+    background-color: rgb(255,255,255);
+    padding: 10px;
+    border: 2px solid black;
+}
+
+blockquote {
+    font-family: Georgia, serif;
+    border-left: 3px solid grey;
+    padding-left: 25px;
+    float: right;
+    font-style: italic;
+}
+
+aside a {
+    color:rgb(0,153,0);
+    text-decoration: none;
+    
+}
+
+span {
+    padding: 20px;
+    float: right;
+    font-style: italic;
+}
+
+h1,h2,h3,h4 {
+    font-family: Georgia, serif;
+}
+
+aside {
+    flex-basis: 25%;
+    margin-left: 100px;
+}
+
+main {
+    flex-basis: 60%;
+}
+
+.first-image {
+    float: right;
+    margin: 15px;
+}
+
+.second-image {
+    float: left;
+    margin: 15px;
+}
+
+p {
+    line-height: 1.25;
+}
