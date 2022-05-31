@@ -1,0 +1,107 @@
+body {
+    background-color: rgb(238,238,238);
+    margin: 30px;
+    padding: 25px;
+}
+
+header {
+    border-bottom: 2px solid black;
+    text-transform: capitalize;
+    flex-basis: 100%;
+}
+
+div.page {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+    background-color: rgb(255,255,255);
+    padding: 10px;
+    border: 2px solid black;
+}
+
+blockquote {
+    font-family: Georgia, serif;
+    border-left: 3px solid grey;
+    padding-left: 25px;
+    float: right;
+    font-style: italic;
+}
+
+aside a {
+    color:rgb(0,153,0);
+    text-decoration: none;
+    
+}
+
+span {
+    padding: 20px;
+    float: right;
+    font-style: italic;
+}
+
+h1,h2,h3,h4 {
+    font-family: Georgia, serif;
+}
+
+aside {
+    flex-basis: 25%;
+    margin-left: 100px;
+}
+
+main {
+    flex-basis: 60%;
+}
+
+.first-image {
+    float: right;
+    margin: 15px;
+}
+
+.second-image {
+    float: left;
+    margin: 15px;
+}
+
+p {
+    line-height: 1.25;
+}
+
+@media (max-width: 500px){
+    body {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 600px){
+    body {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 800px){
+    body {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 801px) and (max-width: 1300px){
+    body {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1301px) and (max-width: 1800px){
+    body {
+        font-size: 21px;
+    }
+}
+
+@media (min-width: 1801px){
+    body {
+        font-size: 23px;
+    }
+}
+
+
