@@ -1,0 +1,50 @@
+@import url("https://use.fontawesome.com/releases/v6.1.1/css/all.css");
+
+.container {
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(247, 241, 241);
+    width: 320px;
+    height: 150px;
+    border-radius: 5px;
+    -webkit-box-shadow: 5px 5px 28px 4px rgba(0, 0, 0, 0.65);
+    box-shadow: 5px 5px 28px 4px rgba(0, 0, 0, 0.65);
+
+}
+
+.submit-button {
+    width: 80px;
+    height: 30px;
+    background-color: rgb(41, 37, 37);
+    color:white;
+    border-radius: 5px;
+}
+
+.login-title {
+    margin-left: -22px;
+    padding: 10px;
+    width: 120px;
+    height: 15px;
+    border: 1px solid grey;
+    font-size: 12px;
+    background-color: rgb(247, 241, 241);
+    border-radius: 2px;
+    box-shadow: 5px 5px 28px 4px rgba(0, 0, 0, 0.65);
+    -webkit-box-shadow: 5px 5px 28px 4px rgba(0, 0, 0, 0.65);
+}
+
+input:focus {
+    background-color: aquamarine;
+    
+}
+input:focus i{
+    display:none;  
+}
+
+
+i {
+    position: fixed;
+    margin-left: 6px;
+    margin-top: 2px
+    
+}
