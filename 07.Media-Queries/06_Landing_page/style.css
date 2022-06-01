@@ -1,0 +1,20 @@
+@import url("https://use.fontawesome.com/releases/v6.1.1/css/all.css");
+@import url("forms.css");
+@import url("reset.css");
+@import url("typography.css");
+@import url("buttons.css");
+
+
+body {height: auto;}
+
+.logo-text {
+    display: inline-block;
+}
+
+.logo-purple {
+    color: purple;
+}
+
+.top-nav li {
+    display: inline-block;
+}
