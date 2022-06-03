@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Laila:wght@700&family=Roboto:ital,wght@1,300&display=swap');
+
+body {
+    background-color: lightgrey;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+section.timeline {
+    border: 0.3rem solid rgb(153, 153, 153);
+    background-color: white;
+    max-width: 1200px;
+    max-height: 1200px;
+    height: 2900px;
+    margin: 0 auto;
+}
+
+#title-span {
+    border: 1px solid grey;
+    margin: auto;
+    margin-top: 20px;
+    width: 200px;
+    font-size: 10px;
+    text-align: center;
+    padding: 3px;
+}
+
+.vertical-line:before {
+    content: '';
+    width: 5px;
+    height: 1165px;
+    ;
+    position: absolute;
+    background-color: rgb(153, 153, 153);
+    left: 50%
+}
+
+.container-left {
+    padding: 10px 40px;
+    position: relative;
+    width: 45%;
+    float:left;
+}
+
+.container-left:after {
+    content: '';
+    position: absolute;
+    top:0;
+    right: 0px;
+    width: 25px;
+    height: 25px;
+    background-color: darkgoldenrod;
+    border-radius: 50%;
+    border: 3px solid rgb(153, 153, 153);
+}
+
+
+.container-right {
+    padding: 10px 40px;
+    position: relative;
+    width: 45%;
+    float:right
+
+}
+
+.container-right:after {
+    content: '';
+    position: absolute;
+    top:0;
+    left: 8px;
+    width: 25px;
+    height: 25px;
+    background-color: rgb(63, 129, 18);
+    border-radius: 50%;
+    border: 3px solid rgb(153, 153, 153);
+}
+
+h3 {
+    display: inline;
+    padding: 20px;
+    font-family: 'Laila', sans-serif;
+    font-size: 30px;
+    text-align: right;
+}
+
+p {
+    padding: 20px;
+    padding-top: 0px;
+    font-size: 14px;
+}
+
+li {
+    font-size: 14px;
+}
