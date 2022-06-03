@@ -28,7 +28,6 @@ section.timeline {
     content: '';
     width: 5px;
     height: 1165px;
-    ;
     position: absolute;
     background-color: rgb(153, 153, 153);
     left: 50%
