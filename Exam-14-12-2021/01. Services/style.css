@@ -45,6 +45,7 @@ button {
 article {
     background-color: rgb(233, 233, 233);
     width: 30%;
+    height:auto;
 }
 
 .main-articles {
