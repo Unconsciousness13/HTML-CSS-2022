@@ -56,4 +56,38 @@
         padding: 0px;
         flex-direction: column;
     }
+
+    .row {
+        margin: 20px;
+        width: auto;
+        flex-wrap: nowrap;
+        display: block;
+    }
+
+
+
+
+    .tm-gallery {
+        margin: 20px;
+        width: auto;
+    }
+
+    .tm-gallery-page {
+        width: auto;
+    }
+
+
+    .tm-gallery-item {
+        max-width: 560px;
+      }
+
+    .img-fluid {
+        width: 450px;
+        max-width: 450px;
+        margin: 1.33em;
+    }
+
+    figcaption {
+        margin:1.33em;
+    }
 }
