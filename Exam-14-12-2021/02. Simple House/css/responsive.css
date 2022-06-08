@@ -1,1 +1,59 @@
-/* TODO: Add the responsive styles here */
+@media only screen and (max-width: 600px) {
+
+
+    header.simple-house-header.container.placeholder {
+        min-width: 350px;
+        min-height: 200px;
+
+    }
+
+    .tm-header-inner {
+        padding: 10px;
+    }
+
+    .parallax-window {
+        min-height: 460px;
+        min-width: 100px;
+    }
+
+    body>header>article>article>article>nav {
+        margin-bottom: 10px;
+        margin-left: 30%;
+    }
+
+    .tm-section-title {
+        text-align: center;
+        margin: auto;
+        margin-bottom: 30px;
+        font-size: 50px;
+    }
+
+    p {
+        color: black;
+    }
+
+    .tm-site-title {
+        font-size: 45px;
+    }
+
+    .tm-site-logo {
+        width: 75px;
+        height: 75px;
+    }
+
+    body>main>header>p {
+        font-size: 18px;
+        text-align: center;
+        margin: 20px;
+    }
+
+    .tm-paging-item {
+        width: 28%;
+    }
+
+    .tm-gallery-page {
+        margin: 0px;
+        padding: 0px;
+        flex-direction: column;
+    }
+}
