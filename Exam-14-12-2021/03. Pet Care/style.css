@@ -1,4 +1,11 @@
-.top-section {
-    background-image: url(./images/header-bg.png);
-    min-height: 400px;
+.top-section img{
+    position: absolute;
+    z-index: -1;
+    width:100%;
+    max-height: 600px;
+}
+
+.nav-top li{
+    display: inline-block;
+    
 }
