@@ -2,10 +2,15 @@
     position: absolute;
     z-index: -1;
     width:100%;
-    max-height: 600px;
+    max-height: 400px;
 }
 
 .nav-top li{
     display: inline-block;
     
+}
+
+#header-dog {
+    width:450px;
+    height:400px;
 }
