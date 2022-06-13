@@ -204,3 +204,87 @@ header h1 {
     font-size: 40px;
     margin-top: -30px;
 }
+
+/* footer */
+
+.bot-section {
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    margin-left: 35%;
+    width: 500px;
+    margin-top:130px;
+}
+
+#image-cat-bot {
+    position: absolute;
+    z-index: -1;
+    max-height: 480px;
+    width: 100%;
+}
+
+.bot-section h1 {
+    color: white;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 35px;
+    text-align: center;
+}
+
+.bot-section p {
+    color: white;
+    font-family: 'Questrial', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.bot-section button {
+    background-color: white;
+    color: orangered;
+    padding: 15px 35px;
+    border-radius: 25px;
+    border: none;
+    margin-top:15px;
+    font-family: 'Merriweather Sans', sans-serif;
+    width: 150px;
+}
+
+.button-span {
+    margin-bottom: 100px;
+    display: block;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    color:white;
+    font-family: 'Merriweather Sans', sans-serif;
+
+}
+
+.button-span button {
+    margin-right: 20px;
+
+}
+
+.footer-grid {
+    display: grid;
+
+    justify-content: center;
+    grid-template-columns: repeat(4, 15%); 
+    gap:50px;
+    margin:70px 0px;
+
+}
+
+.footer-grid p {
+    color: grey;
+    font-size: 18px;
+    font-family: 'Questrial', sans-serif;
+}
+
+.footer-grid h3 {
+    font-family: 'Questrial', sans-serif;
+    margin-bottom: 40px;
+}
+
+.footer-grid img {
+    margin-bottom: 20px;
+}
