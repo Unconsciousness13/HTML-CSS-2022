@@ -1,0 +1,78 @@
+@media screen and (max-width: 600px) {
+    .main-head .main-nav {
+        display: none;
+    }
+
+    .hero-head .wrapper {
+        width: 100%;
+        padding: 32px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .hero-head .wrapper h1,
+    .hero-head .wrapper .goal {
+        float: none;
+    }
+
+    .hero-head .wrapper h1 {
+        margin: 0 0 40px;
+        font-size: 46px;
+        line-height: 2;
+    }
+
+    .hero-head .wrapper .goal {
+        max-width: unset;
+    }
+
+    .content {
+        padding: 62px 16px;
+    }
+
+    .content .wrapper {
+        width: auto;
+    }
+
+    .content-wrap {
+        margin-top: unset;
+    }
+
+    .content-wrap.two-col {
+        flex-wrap: wrap;
+    }
+
+
+    .content-wrap.two-col .col {
+        flex-basis: 100%;
+    }
+
+    .content.bordered {
+        padding: 62px 16px;
+    }
+
+    .content.bordered .content-wrap.two-col .col {
+        text-align: center;
+        margin-right: 0px;
+    }
+
+    .content.bordered .content-wrap.two-col .col a {
+        width: 100%;
+    }
+
+    .content.bordered .content-wrap.two-col .col h3 {
+        margin-top: unset;
+    }
+
+    .content.bordered .content-wrap.two-col .col:first-child {
+        margin-bottom: 62px;
+    }
+
+    /* sponsors */
+
+    
+}
+
+
+
