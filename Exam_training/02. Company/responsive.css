@@ -3,6 +3,11 @@
         display: none;
     }
 
+    .hero-head {
+        background-color: black;
+        background-image: none;
+    }
+
     .hero-head .wrapper {
         width: 100%;
         padding: 32px;
@@ -76,11 +81,14 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
+        gap: 12px;
+    }
+
+    .main-foot address, .main-foot nav{
+        margin: 0;
     }
 
     .main-foot .bottom .copyright{
-        text-align: center;
-        display: block;
         float: none;
     }    
 }
