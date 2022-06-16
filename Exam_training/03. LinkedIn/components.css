@@ -1,0 +1,59 @@
+.btn {
+    padding: 10px 6px;
+    border-radius: 20px;
+    border: 1px solid var(--color-blue);
+    cursor: pointer;
+    background-color: white;
+    color: var(--color-blue);
+
+}
+
+.btn--primary {
+    background-color: var(--color-blue);
+    color: white;
+    font-size: 18px;
+}
+
+.join-now {
+    color: black;
+    text-decoration: none;
+    margin-right: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sing-in {
+    border: 1px solid var(--color-blue);
+    border-radius: 20px;
+    padding: 10px 25px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: var(--color-blue);
+}
+
+.hero-top-btn {
+    border: none;
+    border-radius: 20px;
+    padding: 10px 25px;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(223, 223, 223);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.hero-top-mid-btn {
+    border: none;
+    border-radius: 20px;
+    padding: 10px 25px;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(223, 223, 223);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin: 80px;
+    cursor: pointer;
+    align-items: center;
+    border: 1px solid grey;
+}
