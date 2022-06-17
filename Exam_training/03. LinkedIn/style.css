@@ -29,7 +29,7 @@ h3 {
     position: relative;
     display: inline-block;
     margin-left: 5%;
-    width: 100%;
+    width: 95%;
     height: 70px;
 }
 
@@ -100,8 +100,27 @@ nav {
     width: 750px;
 }
 
+
 .forgot-pass {
     color: black;
+}
+
+.password-div {
+    position: relative;
+}
+
+.password-div input {
+    width: 96%;
+}
+
+.password-div span {
+    width: 3%;
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color:rgb(78, 78, 78);
 }
 
 /* heroe-top */
@@ -268,19 +287,22 @@ nav {
 
 .flex-bottom-container .footer-container {
     padding: 20px 50px;
-    font-family: 'Montserrat', sans-serif;
+
 
 }
 
 .p-titles {
     font-weight: bold;
     margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .p-subtitles {
     margin-bottom: 10px;
     color: rgb(88, 88, 88);
+    font-family: 'Roboto', sans-serif;
 }
+
 .footer-containers-first {
     padding: 0;
 }
