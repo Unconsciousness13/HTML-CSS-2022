@@ -191,3 +191,17 @@ nav {
     font-size: 50px;
     color: rgb(0, 0, 0);
 }
+
+.hero-mid-bot-one {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.mid-bot-one {
+    justify-content: center;
+    align-items: center;
+}
+
+.mid-bot-one-img {
+    width: 50%
+}
