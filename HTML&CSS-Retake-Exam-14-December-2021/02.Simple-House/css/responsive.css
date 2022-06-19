@@ -1,1 +1,80 @@
-/* TODO: Add the responsive styles here */
+@media screen and (max-width: 600px) {
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    .row {
+        display: block;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .tm-nav-li {
+        padding-left: 25px;
+
+    }
+
+    .tm-header-inner {
+        padding-right: 0;
+    }
+
+    .tm-site-title {
+        font-size: 55px;
+    }
+
+    .tm-site-description {
+        font-size: 25px;
+    }
+
+    .tm-nav-link {
+        font-size: 25px;
+    }
+
+    .tm-site-logo {
+        width: 100px;
+    }
+
+    .col-md-6 col-12 {
+        margin: 0;
+        padding: 0;
+    }
+
+    .tm-header-inner {
+        padding-left: 15px;
+    }
+    .tm-section-title {
+        text-align: center;
+        margin-left:0;
+        font-size: 48px;
+    } 
+
+    body > main > header > p {
+        font-size: 20px;
+        text-align:start;
+        padding: 20px;
+    }
+
+    .tm-paging-links {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tm-paging-item {
+        max-width: 560px;
+    }
+    .tm-gallery-page {
+        margin:0;
+    }
+
+    #tm-gallery-page-pizza {
+        display: block;
+        width: 100%;
+    }
+
+    .tm-gallery-item {
+        width:100%;
+    }
+
+    
+}
