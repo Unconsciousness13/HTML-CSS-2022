@@ -10,8 +10,11 @@ html {
     flex-direction: row;
 }
 
+/* left side */
+
 .left-side {
     margin: 50px;
+    width:25%;
 }
 
 .first-paragraph {
@@ -25,3 +28,20 @@ html {
     color: rgb(77, 77, 77);
     margin-bottom:30px;
 }
+
+.second-paragraph {
+    font-size: 14px;
+    color: rgb(77, 77, 77);
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.first-button {
+
+}
+
+.second-button {
+
+}
+
+/* right side */
