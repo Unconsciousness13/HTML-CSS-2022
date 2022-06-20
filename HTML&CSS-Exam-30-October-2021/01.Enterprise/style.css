@@ -1,0 +1,27 @@
+html {
+    font-family: Helvetica;
+}
+
+.container {
+    background-color: rgb(245, 244, 244);
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-side {
+    margin: 50px;
+}
+
+.first-paragraph {
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(77, 77, 77);
+}
+
+.left-side-title {
+    font-weight: lighter;
+    color: rgb(77, 77, 77);
+    margin-bottom:30px;
+}
