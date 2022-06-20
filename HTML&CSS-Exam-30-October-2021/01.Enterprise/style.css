@@ -4,17 +4,19 @@ html {
 
 .container {
     background-color: rgb(245, 244, 244);
-    width: 70%;
+    width: 1000px;
     margin: auto;
+    margin-top: 50px;
     display: flex;
     flex-direction: row;
+    position: relative;
 }
 
 /* left side */
 
 .left-side {
     margin: 50px;
-    width:25%;
+    width: 30%;
 }
 
 .first-paragraph {
@@ -26,7 +28,7 @@ html {
 .left-side-title {
     font-weight: lighter;
     color: rgb(77, 77, 77);
-    margin-bottom:30px;
+    margin-bottom: 30px;
 }
 
 .second-paragraph {
@@ -37,11 +39,36 @@ html {
 }
 
 .first-button {
-
+    border-radius: 4px;
+    border: 2px solid rgb(142, 128, 204);
+    padding: 10px 20px;
+    background-color: rgb(142, 128, 204);
+    color: white;
+    font-weight: bold;
 }
 
 .second-button {
+    border-radius: 4px;
+    border: 2px solid rgb(77, 77, 77);
+    ;
+    padding: 10px 20px;
+    background-color: rgb(245, 244, 244);
+    color: rgb(77, 77, 77);
+    margin-left: 15px;
+    font-weight: bold;
+}
 
+.buttons {
+    display: inline-block;
 }
 
 /* right side */
+
+.right-part img {
+    width: 300px;
+    margin-left:100px;
+    position:absolute;
+    right:50px;
+    bottom:0px;
+    height: 300px;
+}
