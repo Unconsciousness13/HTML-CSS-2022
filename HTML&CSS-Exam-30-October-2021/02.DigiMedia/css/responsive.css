@@ -1,1 +1,23 @@
-/* TODO: Add responsive styles here... */
+@media only screen and (max-width: 600px) { 
+    #navbarSupportedContent {
+        display:none;
+    }
+
+    .container-fluid.hero img  {
+        display: none;
+    }
+
+    .hero h1 {
+        margin-top: 100px;
+    }
+
+    .navbar-light {
+        margin-left: 40%;
+        align-items: center;
+        width: 110%;
+    }
+
+    .navbar {
+        padding: 20px;
+    }
+}
