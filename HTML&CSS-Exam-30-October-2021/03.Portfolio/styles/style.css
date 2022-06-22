@@ -22,6 +22,7 @@ body {
     color: black;
     padding: 5rem;
     margin-bottom: 2rem;
+    height: 70vh;
 }
 
 .default-title {
@@ -68,7 +69,6 @@ body {
 /* Hero */
 #hero {
     position: relative;
-    height: 80vh;
     display: flex;
     align-items: center;
 }
@@ -92,6 +92,12 @@ body {
 
 /*  Purpose */
 
+#purpose {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 #purpose .title-wrapper {
     display: flex;
     align-items: center;
@@ -107,8 +113,34 @@ body {
     margin-bottom: 2rem;
 }
 
+#purpose .info {
+    width: 50%;
+}
+
+#purpose .purpose-img  {
+    width: 37%;
+    padding: 10px 30px;
+}
+
 #purpose .socials {
     display: flex;
     align-items: center;
-    gap:1rem;  
+    gap:1.5rem;  
+}
+
+
+#purpose .socials .social-link {
+    padding:1rem 1rem;
+    height: 3rem;
+    background-color: var(--clr-icon-background);
+    color: white;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+ul.socials {
+    padding-left: 0;
 }
