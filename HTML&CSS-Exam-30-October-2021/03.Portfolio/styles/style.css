@@ -144,3 +144,15 @@ body {
 ul.socials {
     padding-left: 0;
 }
+
+/* Poster */
+
+#poster.section {
+    padding: unset;
+}
+
+#poster .bg-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
