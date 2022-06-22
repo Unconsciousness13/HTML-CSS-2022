@@ -215,16 +215,35 @@ ul.socials {
 
 #contacts .form .email {
     grid-area: email;
+    border: 1px solid black;
+    padding: 0.5rem;
+    background-color: transparent;
 }
 
 #contacts .form .subject {
     grid-area: subject;
+    border: 1px solid black;
+    padding: 0.5rem;
+    background-color: transparent;
 }
 
 #contacts .form .msg {
     grid-area: msg;
+    border: 1px solid black;
+    padding: 0.5rem;
+    background-color: transparent;
 }
 
 #contacts .form .btn {
     grid-area: btn;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    padding: 0.5rem;
+    font-weight: bold;
+}
+
+#contacts > div > p {
+    font-size: 20px;
 }
