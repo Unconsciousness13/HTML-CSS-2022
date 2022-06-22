@@ -172,13 +172,13 @@ ul.socials {
 
 
 /* Three Images container */
-#three-img  {
+#three-img {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#three-img img{
+#three-img img {
     width: 33.33%;
     position: relative;
     z-index: 1;
@@ -191,8 +191,12 @@ ul.socials {
 
 /* Last Container*/
 
-#contacts > div {
-    width:70%;
+#contacts {
+    margin-bottom: 0px;
+}
+
+#contacts>div {
+    width: 70%;
     margin: 0 auto;
     text-align: center;
 }
@@ -206,10 +210,10 @@ ul.socials {
     width: 60%;
     margin: 0 auto;
     gap: 1.5rem;
-    grid-template-areas: 
-    "email subject"
-    "msg msg"
-    "btn btn"
+    grid-template-areas:
+        "email subject"
+        "msg msg"
+        "btn btn"
     ;
 }
 
@@ -225,12 +229,14 @@ ul.socials {
     border: 1px solid black;
     padding: 0.5rem;
     background-color: transparent;
+
+
 }
 
 #contacts .form .msg {
     grid-area: msg;
     border: 1px solid black;
-    padding: 0.5rem;
+    padding: 1rem;
     background-color: transparent;
 }
 
@@ -242,8 +248,27 @@ ul.socials {
     text-transform: uppercase;
     padding: 0.5rem;
     font-weight: bold;
+    cursor: pointer;
 }
 
-#contacts > div > p {
+#contacts>div>p {
     font-size: 20px;
 }
+
+input {
+    background-color: var(--clr-grey-background);
+    color: black;
+    padding: 8px 14px;
+}
+
+.reserved-p {
+    background-color: var(--clr-grey-background);
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+::placeholder {
+    color: black;
+    font-size: 16px;
+}
+
