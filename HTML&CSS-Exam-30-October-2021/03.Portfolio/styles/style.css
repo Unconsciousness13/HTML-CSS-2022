@@ -169,3 +169,62 @@ ul.socials {
 #fourth-p {
     margin-bottom: 30px;
 }
+
+
+/* Three Images container */
+#three-img  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#three-img img{
+    width: 33.33%;
+    position: relative;
+    z-index: 1;
+}
+
+#three-img img:nth-child(2) {
+    transform: scale(1.5);
+    z-index: 2;
+}
+
+/* Last Container*/
+
+#contacts > div {
+    width:70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#contacts .default-description {
+    margin-bottom: 2.5rem;
+}
+
+#contacts .form {
+    display: grid;
+    width: 60%;
+    margin: 0 auto;
+    gap: 1.5rem;
+    grid-template-areas: 
+    "email subject"
+    "msg msg"
+    "btn btn"
+    ;
+}
+
+#contacts .form .email {
+    grid-area: email;
+}
+
+#contacts .form .subject {
+    grid-area: subject;
+}
+
+#contacts .form .msg {
+    grid-area: msg;
+}
+
+#contacts .form .btn {
+    grid-area: btn;
+}
