@@ -1,1 +1,29 @@
-/* TODO: Add the responsive styles here */
+@media screen and (max-width: 600px) {
+    /* Header */
+
+    .w3-right.w3-hide-small {
+        display: none;
+    }
+
+    .w3-col.m6.w3-padding-large.w3-hide-small {
+        display: none;
+    }
+
+    .w3-col.m6.w3-padding-large {
+        width: 100%;
+    }
+
+    
+
+    .w3-col.l6.w3-padding-large {
+        width: 100%;
+    }
+
+    #menu > article > h4 {
+        font-size: 27px;
+    }
+
+    #menu > article > p {
+        font-size: 22px;
+    }
+}
