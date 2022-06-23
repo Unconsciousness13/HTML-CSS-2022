@@ -9,6 +9,11 @@
         display: none;
     }
 
+    .w3-top {
+        position: relative;
+    }
+
+    /* main */
     .w3-col.m6.w3-padding-large {
         width: 100%;
     }
