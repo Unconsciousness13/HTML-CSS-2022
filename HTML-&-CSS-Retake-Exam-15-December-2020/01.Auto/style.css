@@ -55,7 +55,8 @@ p {
 }
 
 .title-serv {
-    font-weight: bold;
+    font-weight: lighter;
     color: black;
-    font-size: 16px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
 }
