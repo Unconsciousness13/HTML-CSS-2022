@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+    margin: 2% 15%;
+}
+
+h1 {
+    font-size: 55px;
+}
+
+p {
+    color: gray
+}
+
+.p-heading {
+    margin-top: -35px
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.main button {
+    position: absolute;
+    padding: 12px 50px;
+    background-color: #03a87c;
+    border: 1px solid #03a87c;
+    border-radius: 4px;;
+    color:white;
+    font-weight: bold;
+    bottom: 0px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.button-part {
+    width: 20%;
+    position: relative;
+}
+
+.desc {
+    width: 30%;
+    margin-left:130px
+}
+
+.desc p {
+    margin-top:30px;
+    font-size:16px;
+}
+
+
+.sec-hr {
+    position: relative;
+    align-items: center;
+}
+
+.hr {
+    width:300px;
+    align-self: center;
+    margin-left: 18%;
+    margin-top:40px;
+}
+
+.highlight {
+    background-color: #b8fae8;
+}
