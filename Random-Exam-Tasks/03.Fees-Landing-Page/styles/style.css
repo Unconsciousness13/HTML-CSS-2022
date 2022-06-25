@@ -293,3 +293,51 @@ h4 {
 }
 
 /* bottom section*/
+
+.main-bottom {
+    align-items: center;
+    justify-items: center;
+    margin-left: 80px;
+}
+
+.main-bottom {
+    color: #59566b;
+    display: flex;
+    flex-direction: row;
+}
+
+.main-bottom h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: lighter;
+}
+
+.main-bottom p {
+    font-size: 14px;
+    padding-bottom: 15px;
+    text-align:inherit;
+}
+
+.descr-content {
+    width: 65%;
+}
+
+
+.main-bottom img {
+    width: 28%;
+    height: 20%;
+}
+
+/* footer */
+
+footer {
+    margin-top: 80px;
+    background-color: #54566b;
+}
+
+footer p {
+    padding: 20px 0px;
+    color: grey;
+    align-items: center;
+    text-align: center;
+}
