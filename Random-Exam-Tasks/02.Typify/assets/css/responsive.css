@@ -1,0 +1,88 @@
+@media screen and (max-width: 600px) { 
+    .banner {
+        
+        margin: 0;
+        padding: 40px 20px;
+    }
+    .banner h2 {
+        width:100%;
+    }
+
+    body > section.banner > ul > li,body > section.banner > ul > li > a {
+        width: 100%;
+    }
+
+    /* end header */
+
+    .wrapper > .inner {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .features {
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    section.special {
+        font-size: 20px;
+    }
+
+    .wrapper {
+        padding: 0;
+        margin: 0;
+    }
+
+    .feature {
+        width: 100%;
+    }
+
+    body > section.wrapper.style2.special > div {
+        width: 100%;
+        margin:20px auto;
+    }
+
+    body > section.wrapper.style2.special > div > form > article {
+        width: 95%;
+        margin: 0 2%;
+    }
+
+    #message {
+        margin-bottom: 40px;
+    }
+
+    body > section.wrapper.style2.special > div > form > ul > li {
+        width: 600px;
+    }
+
+    body > section.wrapper.style2.special > div > form > ul > li > input[type=submit] {
+        width: 95%;
+        margin: 10 10px;
+    }
+
+    .footer {
+        padding: 40px 0px;
+    }
+
+    .copyright {
+        margin-bottom: 0px;
+    }
+
+    .footer:before {
+        background-color: #ddd;
+        content: "";
+        height: 1px;
+        left: 10%;
+        position: absolute;
+        top: 0;
+        width: 80%;
+    }
+
+    body > section:nth-child(2) > article > header {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+}
