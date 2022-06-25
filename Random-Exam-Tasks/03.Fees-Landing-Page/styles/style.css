@@ -298,13 +298,11 @@ h4 {
     align-items: center;
     justify-items: center;
     margin-left: 80px;
-}
-
-.main-bottom {
     color: #59566b;
     display: flex;
     flex-direction: row;
 }
+
 
 .main-bottom h2 {
     font-size: 24px;
