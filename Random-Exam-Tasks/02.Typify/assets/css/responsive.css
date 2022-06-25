@@ -37,7 +37,8 @@
     }
 
     .feature {
-        width: 100%;
+        width: 96%;
+        margin: 0px 2%;
     }
 
     body > section.wrapper.style2.special > div {
@@ -55,7 +56,7 @@
     }
 
     body > section.wrapper.style2.special > div > form > ul > li {
-        width: 600px;
+        width: 98%;
     }
 
     body > section.wrapper.style2.special > div > form > ul > li > input[type=submit] {
