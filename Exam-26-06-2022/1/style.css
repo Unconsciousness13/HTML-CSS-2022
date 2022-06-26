@@ -1,8 +1,99 @@
 
 @import url("https://use.fontawesome.com/releases/v6.1.1/css/all.css");
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 
 :root {
-    --clr-purple-background: #54566b;
+    --clr-red: #ce2a28;
+}
+
+body {
+    font-family: 'Courgette', cursive;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* top header */
+
+.top-header {
+    text-align: center;
+}
+
+.top-title {
+    font-size: 60px;
+    font-weight: lighter;
+    padding-top: 20px;
+    margin-bottom: 0;
+    margin-left: -50px;
+}
+
+.span-design {
+    color: var(--clr-red);
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: -10px;
+    margin-left: 220px;
+    margin-bottom:40px;
+}
+
+/* main part */ 
+
+.main-boxes {
+    display: flex;
+    flex-direction: row;
+    gap:25px;
+}
+
+.box-models {
+    width:30%;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #ffffff;
+   
+
+}
+
+.box-images {
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.box-headings {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.hline {
+    color: var(--clr-red);
+    width: 90%;
+
+}
+
+.first-p {
+    font-size: 16px;
+    margin: 20px 20px;
+    text-align: center;
+}
+
+.first-p.last {
+    text-align:center;
+}
+
+.first-p.first {
+    padding-bottom:20px;
+}
+
+.first-p {
+    margin-bottom: 20px;
 }
 
 
+body > div > section.main-boxes > article > p > i {
+    color: var(--clr-red);
+    padding-top: 6px;
+}

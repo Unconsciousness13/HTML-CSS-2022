@@ -1,0 +1,107 @@
+@media screen and (max-width: 600px) {
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .left-to-right:first-child {
+        padding: 50px;
+        height: 500px;
+
+    }
+
+    body>main>section:nth-child(1)>article {
+        padding: 10px;
+        margin: 0px auto;
+        border-radius: 80px;
+        height: 430px;
+    }
+
+    body>main>section:nth-child(1)>article>button {
+        display: none;
+    }
+
+    body>main>section:nth-child(1)>article>header>h1 {
+        font-size: 35px;
+    }
+
+    body>main>section:nth-child(1)>article>p {
+        padding: 0 20px;
+        font-size: 17.5px;
+    }
+
+    /* second - part*/
+
+    body>main>section:nth-child(2) {
+        display: block;
+    }
+
+    body>main>section:nth-child(2)>article:nth-child(1)>header>h1 {
+        font-size: 35px;
+    }
+
+    body>main>section:nth-child(2)>article:nth-child(1)>header>p {
+        font-size: 22px;
+    }
+
+    body>main>section:nth-child(2)>article:nth-child(1)>p {
+        font-size: 18px;
+    }
+
+    body>main>section:nth-child(2)>article:nth-child(1)>button {
+        display: none;
+    }
+
+    /* third part */
+
+    body>main>section:nth-child(3)>article>button {
+        display: none;
+    }
+
+    main .left-to-right article {
+        border-radius: 27%;
+        padding: 20px;
+        height: 420px;
+    }
+
+    body>main>section:nth-child(3)>article>header>h1 {
+        font-size: 35px;
+        padding-top: 50px;
+    }
+
+    body>main>section:nth-child(3)>article>p {
+        margin-top: 0;
+        margin-bottom: 20px;
+        padding: 20px 10px;
+        padding-top: 0;
+        padding-left: 15px;
+    }
+
+    /* form-part */
+
+    body>main>section:nth-child(4)>article:nth-child(1) {
+        margin: auto 20%;
+    }
+
+    body > main > section:nth-child(4) > article:nth-child(1) {
+        align-items: center;
+    }
+
+
+    body > main > section:nth-child(4) > article:nth-child(1) > form > label:nth-child(4) {
+        align-items: center;
+        align-content: center;
+        margin-left: 130px;
+    }
+
+    body > main > section:nth-child(4) > article:nth-child(2) {
+        display: block;
+        position: absolute;
+        width: 400px;
+        height: 400px;
+        margin-top:450px;
+        margin-left: 100px;
+    }
+
+}
